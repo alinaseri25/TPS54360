@@ -1,0 +1,9 @@
+Removed Pin From Net: NetName=GND Pin=TPS56360-10
+Removed Pin From Net: NetName=GND Pin=TPS56360-11
+Removed Pin From Net: NetName=GND Pin=TPS56360-12
+Removed Pin From Net: NetName=GND Pin=TPS56360-13
+Removed Pin From Net: NetName=GND Pin=TPS56360-14
+Removed Pin From Net: NetName=GND Pin=TPS56360-15
+Removed Pin From Net: NetName=GND Pin=TPS56360-16
+Removed Pin From Net: NetName=GND Pin=TPS56360-17
+Added Pin To Net: NetName=VccOut Pin=L1-1
