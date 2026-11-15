@@ -3180,7 +3180,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53041e4f-9eb4-4b2e-959d-56676e96a2be")
-		(property "Reference" "RV1"
+		(property "Reference" "RVFBUp1"
 			(at 189.23 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3191,7 +3191,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R_Potentiometer"
+		(property "Value" ""
 			(at 189.23 102.8699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3280,7 +3280,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "RV1")
+					(reference "RVFBUp1")
 					(unit 1)
 				)
 			)
@@ -3298,7 +3298,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b592947-40c1-49f4-9852-2e9aa560c984")
-		(property "Reference" "R3"
+		(property "Reference" "RFBUp1"
 			(at 189.23 90.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3320,7 +3320,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 182.118 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -3373,7 +3373,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "R3")
+					(reference "RFBUp1")
 					(unit 1)
 				)
 			)
@@ -3391,7 +3391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79bbaf14-91be-4bed-933d-433c86d635d5")
-		(property "Reference" "C4"
+		(property "Reference" "COut1"
 			(at 177.8 92.7099 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3478,7 +3478,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "C4")
+					(reference "COut1")
 					(unit 1)
 				)
 			)
@@ -3496,7 +3496,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a25f185-c3a4-4f7c-a125-d3ddcce1361b")
-		(property "Reference" "R4"
+		(property "Reference" "RFBDown1"
 			(at 189.23 113.0299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3518,7 +3518,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0201_0603Metric"
 			(at 182.118 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3563,15 +3563,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0248ceb5-3376-4265-b77c-d4125ec1f8ce")
+			(uuid "0248ceb5-3376-4265-b77c-d4125ec1f8cf")
 		)
 		(pin "1"
-			(uuid "521845fb-749c-41a2-b701-2c22624298d2")
+			(uuid "521845fb-749c-41a2-b701-2c22624298d3")
 		)
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "R4")
+					(reference "RFBDown1")
 					(unit 1)
 				)
 			)
@@ -3589,7 +3589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5b581d5-eda6-4750-ac7e-47b288fd9b10")
-		(property "Reference" "R2"
+		(property "Reference" "RComp1"
 			(at 134.62 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3611,7 +3611,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 127.508 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -3664,7 +3664,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "R2")
+					(reference "RComp1")
 					(unit 1)
 				)
 			)
@@ -3682,7 +3682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb24634b-55aa-49a0-9c57-e7eb9122cdad")
-		(property "Reference" "R1"
+		(property "Reference" "RT/CLK1"
 			(at 97.79 93.9799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3704,7 +3704,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Resistor:R_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 90.678 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -3757,7 +3757,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "R1")
+					(reference "RT/CLK1")
 					(unit 1)
 				)
 			)
@@ -3775,7 +3775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbee83ff-1260-41d9-baf1-c7138e6c18d9")
-		(property "Reference" "C3"
+		(property "Reference" "CBoot1"
 			(at 137.16 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3837,7 +3837,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "C3")
+					(reference "CBoot1")
 					(unit 1)
 				)
 			)
@@ -3937,7 +3937,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de0f7d60-00eb-4104-8ccd-0b5edb08f402")
-		(property "Reference" "C2"
+		(property "Reference" "CComp1"
 			(at 135.89 113.0299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3959,7 +3959,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 133.0452 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -4001,7 +4001,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "C2")
+					(reference "CComp1")
 					(unit 1)
 				)
 			)
@@ -4019,7 +4019,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fd599700-88cb-4d4a-8923-6f5762ad5243")
-		(property "Reference" "C1"
+		(property "Reference" "CIn1"
 			(at 85.09 45.7262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4030,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100nf"
 			(at 85.09 48.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4041,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "PCM_SparkFun-Capacitor:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0201_0603Metric"
 			(at 83.5152 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -4116,7 +4116,7 @@
 		(instances
 			(project "TPS54360"
 				(path "/760428e4-c904-4730-900a-c1f1b917575c"
-					(reference "C1")
+					(reference "CIn1")
 					(unit 1)
 				)
 			)
